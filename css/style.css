@@ -80,6 +80,7 @@ p{
 
 .l-heading{
     font-size: 40px;
+    line-height: 42px;
 }
 
 /* padding */
@@ -229,6 +230,10 @@ p{
     margin-bottom: 40px;
     border-radius: 5px;
     opacity: 0.85;
+}
+
+.testimonial p{
+    padding-top: 10px;
 }
 
 #testimonials .testimonial img{
