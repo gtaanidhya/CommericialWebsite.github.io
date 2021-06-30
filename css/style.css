@@ -134,7 +134,7 @@ p{
 /* Showcase */
 #showcase{
     background: url("../img/showcase.jpg") center center/cover no-repeat;
-    height: 600px;
+    min-height: 500px;
 }
 
 #showcase .showcase-content{
@@ -156,7 +156,7 @@ p{
 /* Home Info */
 
 #home-info{
-    height: 500px;
+    min-height: 400px;
 }
 
 #home-info .info-img{
@@ -165,7 +165,7 @@ p{
     background: url('../img/photo-1.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 100%;
+    min-height: 400px;
 }
 
 #home-info .info-content{

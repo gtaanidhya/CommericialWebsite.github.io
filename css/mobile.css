@@ -1,6 +1,3 @@
-#showcase{
-    height: 400px;
-}
 
 #showcase .showcase-content{
     padding-top: 80px;
@@ -14,10 +11,6 @@
 #home-info .info-content{
     float: none;
     width: 100%;
-}
-
-#home-info{
-    height: 400px;
 }
 
 .box{
