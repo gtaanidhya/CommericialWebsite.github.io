@@ -123,6 +123,7 @@ p{
     display: block;
     padding: 20px;
     text-align: center;
+    transition: 0.5s;
 }
 
 #navbar ul li a:hover, #navbar ul li .current{
@@ -155,13 +156,15 @@ p{
 /* Home Info */
 
 #home-info{
-    height: 400px;
+    height: 500px;
 }
 
 #home-info .info-img{
     float: left;
     width: 50%;
     background: url('../img/photo-1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100%;
 }
 
@@ -170,7 +173,7 @@ p{
     width: 50%;
     height: 100%;
     text-align: center;
-    padding: 50px 30px;
+    padding: 50px 20px;
     overflow: hidden;
 }
 
@@ -215,9 +218,10 @@ p{
 /* Testimonials */
 
 #testimonials{
-    max-height: 690px;
+    min-height: 570px;
     background: url('../img/test-bg.jpg') no-repeat center center/cover;
-    padding-top: 100px;
+    padding-top: 80px;
+    
 }
 
 #testimonials h2{
@@ -231,6 +235,7 @@ p{
     margin-bottom: 40px;
     border-radius: 5px;
     opacity: 0.85;
+    
 }
 
 .testimonial p{

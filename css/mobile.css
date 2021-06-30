@@ -1,0 +1,41 @@
+#showcase{
+    height: 400px;
+}
+
+#showcase .showcase-content{
+    padding-top: 80px;
+}
+
+.info-img{
+    float: none;
+    display: none;
+}
+
+#home-info .info-content{
+    float: none;
+    width: 100%;
+}
+
+#home-info{
+    height: 400px;
+}
+
+.box{
+    float: none;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+#about-info .info-right img{
+    display: none;
+}
+
+#about-info .info-left{
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-box{
+    border-bottom: 1px solid rgb(66, 66, 66);
+}
