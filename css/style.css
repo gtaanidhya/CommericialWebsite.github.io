@@ -48,6 +48,7 @@ p{
     padding: 13px 20px;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .btn:hover{
@@ -98,7 +99,7 @@ p{
 #navbar{
     background-color: #333;
     color: white;
-    overflow: auto;
+    height: 70px;
 }
 
 #navbar a{
@@ -156,16 +157,15 @@ p{
 /* Home Info */
 
 #home-info{
-    min-height: 400px;
+    height: 450px;
 }
 
 #home-info .info-img{
     float: left;
     width: 50%;
-    background: url('../img/photo-1.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 400px;
+    background-image: url('../img/photo-1.jpg');
+    min-height: 100%;
+    
 }
 
 #home-info .info-content{
@@ -174,7 +174,6 @@ p{
     height: 100%;
     text-align: center;
     padding: 50px 20px;
-    overflow: hidden;
 }
 
 #home-info .info-content p {
@@ -283,4 +282,10 @@ p{
     background: #444;
     color: #fff;
     padding: 20px;
+}
+
+/* hamburger */
+
+#hamburger{
+    display: none;
 }
